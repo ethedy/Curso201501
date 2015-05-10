@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Author>Enrique Thedy</Author>
+      <Shortcut>ldbwin</Shortcut>
+      <Title>ldbwin</Title>
+    </Header>
+    <Snippet>
+      <Code Language="XAML"><![CDATA[  <DockPanel>
+    <WrapPanel DockPanel.Dock="Top">
+      <Button Name="btnOpenDB" Margin="10" HorizontalContentAlignment="Center" Width="180" Padding="5" Click="btnOpenDB_Click">
+        <StackPanel Orientation="Horizontal">
+          <Image Source="Imagenes/Data-Find.png" Width="32"></Image>
+          <TextBlock VerticalAlignment="Center">Abrir Base de Datos</TextBlock>
+        </StackPanel>
+      </Button>
+      <Button Name="btnTestDB" Margin="10" HorizontalContentAlignment="Center" Width="180" Padding="5" Click="btnTestDB_Click">
+        <StackPanel Orientation="Horizontal">
+          <Image Source="Imagenes/Data-Settings.png" Width="32" ></Image>
+          <TextBlock VerticalAlignment="Center">Probar Base de Datos</TextBlock>
+        </StackPanel>
+      </Button>
+    </WrapPanel>
+    <TextBox Margin="10" Padding="5" TextWrapping="Wrap" VerticalScrollBarVisibility="Visible"></TextBox>
+  </DockPanel>
+]]></Code>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
