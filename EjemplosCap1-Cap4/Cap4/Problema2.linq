@@ -2,6 +2,11 @@
   <Namespace>System.Collections.ObjectModel</Namespace>
 </Query>
 
+/*
+  - Agregamos la posibilidad de obtener los datos de Libro a partir de una cadena delimitada
+  - Esta cadena podria provenir de un archivo...
+*/
+
 string DB_Libros = @"
   El Aleph | 169 | Jorge Luis Borges | La Urraca | 123-7897888979-88
   Rayuela | 250 | Julio Cortazar | Critica | 123-7897888979-88
@@ -33,7 +38,6 @@ class Libro
   public string Editorial { get; set; }
   public string Autor { get; set; }
   public decimal Precio { get; set; }
-  //  public Editorial Editorial { get; set; }
   
   public Libro()  {}
   
@@ -68,6 +72,7 @@ class Venta
   
   public Venta() 
   {
+    Fecha = DateTime.Now;
     _detalle = new List<ItemVenta>();
   }
   
