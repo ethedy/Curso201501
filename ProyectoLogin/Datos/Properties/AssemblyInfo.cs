@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Entidades")]
+[assembly: AssemblyTitle("Datos")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Telecom Argentina S.A.")]
-[assembly: AssemblyProduct("Entidades")]
+[assembly: AssemblyProduct("Datos")]
 [assembly: AssemblyCopyright("Copyright © Telecom Argentina S.A. 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("9c620a1f-a6fc-4b9e-a04a-b1baa1df4952")]
+[assembly: Guid("a671b45d-85d8-4cb0-98cf-a504c1eb4559")]
 
 // Version information for an assembly consists of the following four values:
 //

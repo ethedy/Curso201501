@@ -23,6 +23,7 @@ namespace WinOMB
     public MainWindow()
     {
       InitializeComponent();
+      txtUsuario.Focus();
     }
   }
 }
